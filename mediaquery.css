@@ -1,0 +1,223 @@
+@media  screen and (max-width:1200px){
+    .main{
+        height: 116vh;
+    }
+    .img-tv video {
+        top: 74px;
+        right: 68px;
+       }
+       .boxshot{
+        left: 101px;
+        top: 249px;
+       }
+       .boxshot img {
+        height: 90px;
+       }
+       .boxshot-txt {
+        padding: 16px 6px;
+    }
+       .laptop video{
+        top: 47px;
+        right: 99px;
+       }
+}
+@media  screen and (max-width:992px) {
+    .hero> :first-child {
+        font-size: 47px;
+    }
+    .img-tv video {
+        top: 63px;
+        right: 56px;
+    }
+    section.first>div :nth-child(1) {
+        font-size: 44px;
+    }
+    .boxshot {
+        left: 61px;
+    top: 207px;
+    height: 14vh;
+    width: 29vw;
+    }
+    .boxshot img {
+        height: 74px; 
+        width: 71px;
+     }
+     .boxshot-txt {
+        padding: 21px 13px;
+    }
+    .boxshot-txt2 {
+        font-size: 12px !important;
+    }
+    .laptop video {
+    top: 37px;
+    right: 81px;
+}
+}
+   @media screen and (max-width:768px){
+    nav img {
+       width: 119px;
+    }    
+.btn{
+    margin: 0 5px;
+    padding: 6px 8px;
+}
+.button .select-language {
+    margin-left: 9px;
+}
+.hero> :first-child {
+    font-size: 43px;
+}
+.btn-red{
+    padding: 9px 8px !important;
+}
+section.first>div :nth-child(1) {
+    font-size: 36px;
+}
+section.first>div :nth-child(2) {
+    font-size: 19px;
+}
+.img-tv video {
+    top: 48px;
+    right: 44px;
+}
+.first{
+    height: 50vh;
+}
+.boxshot {
+    left: 27px;
+    top: 162px;
+    width: 33vw;
+}
+.boxshot-txt {
+    padding: 17px 10px;
+}
+.laptop video{
+     top: 29px;
+        right: 63px;
+    
+}
+h2{
+    font-size: 42px;
+}
+.footer .btn-bottom {
+    margin: 8px -6px;
+}
+ } 
+ @media screen and (max-width:576px){
+    nav{
+        max-width: 91vw;
+    }
+    nav img {
+        width: 100px;
+    }
+    .btn{
+    padding: 3px 8px;
+}
+    .hero> :first-child {
+        font-size: 34px;
+    }
+    .hero> :nth-child(2) {
+        font-size: 18px;   
+    }
+    
+    .hero> :nth-child(3) {
+        font-size: 14px;   
+    }
+    .hero-btn {
+        flex-direction: column;
+    }
+    input {
+        padding: 10px 159px 9px 13px;
+        font-weight: 500;
+              font-size: 15px;
+    }
+    .btn-red {
+        margin-top: 6px;
+        padding: 3px 15px !important;
+        font-weight: 500;
+        font-size: 21px;
+    }
+    .first{
+        flex-direction: column;
+        max-width: 44vw;
+        height: 53vh;
+      
+    }
+    .second , .fourth{
+        flex-direction: column-reverse;
+    }
+    section.first>div :nth-child(1) {
+        font-size: 26px;
+      
+    }
+    section.first>div :nth-child(2) {
+        font-size: 14px;
+    }
+    .img-tv video {
+        top: 36px;
+        right: 33px;
+    }
+    .boxshot {
+        left: 18px;
+        top: 120px;
+        width: 33vw;
+        height: 9vh;
+      
+    }
+    .boxshot img {
+        height: 46px;
+        width: 37px;
+    }
+    .boxshot-txt2 {
+        font-weight: 400;
+        font-size: 11px !important;
+    }
+    .boxshot-txt {
+        padding: 10px 9px;
+    }
+    .laptop video {
+        top: 22px;
+        right: 47px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .faqbox{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer-template {
+        width: 29vw;
+    }
+    
+ }
+ @media screen and (max-width:479px){
+    section.first>div :nth-child(1) {
+        font-size: 21px;
+    }
+    section.first>div :nth-child(2) {
+        font-size: 12px;
+    }
+    .img-tv video {
+        top: 31px;
+        right: 28px;
+    }
+    .laptop video {
+        top: 18px;
+        right: 39px;
+    }
+    .boxshot {
+        left: 0px;
+        top: 103px;
+        width: 40vw;
+          }
+          .boxshot-txt {
+            padding: 8px 9px;
+        }
+          
+ }

@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background: url(assets/images/bg.jpg);
+    height: 118vh;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+}
+
+nav {
+    max-width: 76vw;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav img {
+    color: red;
+    width: 131px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.main .box {
+    height: 118vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.button {
+    display: flex;
+    height: 6vh;
+}
+
+.button .select-language {
+    display: block;
+    position: absolute;
+    margin-left: 18px;
+    width: 142px;
+    height: 49px;
+    z-index: 1;
+    text-align: center;
+}
+.button .select-language.active{
+    display: none;
+}
+
+
+.button .select-language a {
+    padding-block: 1px;
+    text-decoration: none;
+    color: white;
+    background-color: white;
+}
+
+.button .select-language a:hover {
+    background-color: blue;
+}
+
+.button .select-language .english-language {
+    padding: 3px 42px;
+}
+
+.button .select-language .hindi-language {
+    padding: 3px 51px;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 24px;
+    color: white;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :first-child {
+    width: 79vw;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero-btn {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(46, 45, 45);
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    padding: 4px 12px;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: rgba(248, 243, 243, 0.021);
+    color: white;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.btn-eng {
+    border: 1px solid gray;
+    width: 146px;
+}
+
+.btn-red {
+    background-color: red;
+    font-weight: 700;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 4px;
+    font-size: 23px;
+
+}
+
+input {
+    padding: 13px 168px 13px 13px;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 1px solid rgba(112, 110, 110, 0.5);
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    padding: 40px 0;
+}
+
+.img-tv {
+    position: relative;
+}
+
+.img-tv img {
+    position: relative;
+    width: 41vw;
+    z-index: 10;
+}
+
+.img-tv video {
+    position: absolute;
+    top: 84px;
+    right: 75px;
+    width: 30vw;
+}
+
+.laptop video {
+    position: absolute;
+    top: 47px;
+    right: 110px;
+    width: 25vw;
+}
+
+section.first>div {
+    display: flex;
+
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    height: 70vh;
+    margin: auto;
+    color: white;
+}
+
+.boxshot {
+    position: absolute;
+    background: black;
+    border-radius: 8px;
+    z-index: 11;
+    left: 108px;
+    top: 277px;
+    width: 24vw;
+    height: 17vh;
+    border: 1px solid white;
+    display: flex;
+
+}
+
+.boxshot img {
+    width: 84px;
+    height: 100px;
+    margin: 4px 0px;
+    margin-left: 6px;
+}
+
+.boxshot-txt {
+    padding: 37px 6px;
+}
+
+.boxshot-txt2 {
+    font-size: 15px !important;
+}
+
+.boxshot-txt> :nth-child(2) {
+    font-weight: 300;
+    color: blue;
+}
+
+ h2 {
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 50px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 5px;
+}
+
+.faq  :hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox {
+    transition: 0.7s ease-out;
+    display: flex;
+    background-color: #2d2d2d;
+    padding: 22px;
+    font-size: 24px;
+    width: 73vw;
+    margin: 10px auto;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faqbox-ans{
+    display: block;
+        background-color: #2d2d2d;
+        padding: 22px;
+        font-size: 24px;
+        width: 73vw;
+        margin: 10px auto;
+        }
+        .faqbox-ans.active{
+            display: none;
+        }
+.text {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin: 28px 0 15px 0;
+}
+
+.hero-btn-2 {
+    margin-bottom: 77px;
+}
+
+footer {
+    color: white;
+    max-width: 77vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .question {
+    padding: 31px 0 15px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .question a {
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.footer-template {
+    width: 20vw;
+}
+
+.footer .footer-template li {
+    list-style: none;
+    padding: 8px 0;
+}
+
+.footer .btn-bottom {
+    margin: 8px -17px;
+}
+
+.footer .location {
+    font-size: 14px;
+    margin: 30px 0 50px 0;
+    color: rgba(255, 255, 255, 0.7);
+}
